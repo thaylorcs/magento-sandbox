@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31c595549ba4c37a9e7eb24a984546f8",
+    "content-hash": "55a62c1aa306b320c5d7f736056897bb",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -16844,6 +16844,31 @@
                 "phar"
             ],
             "time": "2021-12-10T11:20:11+00:00"
+        },
+        {
+            "name": "sparsh/magento-2-banner-extension",
+            "version": "1.3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/sparsh/magento-2-banner-extension/sparsh-magento-2-banner-extension-1.3.0.0.zip",
+                "shasum": "839ba6e087173350e57640452e1c87479cf470c3"
+            },
+            "require": {
+                "php": "~7.0.13|~7.1.0|~7.2.0|~7.3.0|~7.4.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Sparsh\\Banner\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Sparsh Banner Extension for Magento 2"
         },
         {
             "name": "spomky-labs/otphp",

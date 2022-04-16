@@ -21,7 +21,8 @@
         "magento/composer-root-update-plugin": "~1.0",
         "magento/product-community-edition": "2.4.0",
         "magepal/magento2-gmailsmtpapp": "^2.8",
-        "rafaelstz/traducao_magento2_pt_br": "dev-master"
+        "rafaelstz/traducao_magento2_pt_br": "dev-master",
+        "sparsh/magento-2-banner-extension": "^1.3"
     },
     "require-dev": {
         "allure-framework/allure-phpunit": "~1.2.0",
